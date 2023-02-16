@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 
 // File: @openzeppelin/contracts@4.8.1/utils/Context.sol
 
@@ -32,7 +34,6 @@ abstract contract Context {
 // OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)
 
 pragma solidity ^0.8.0;
-
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -203,7 +204,6 @@ interface IERC20 {
 
 pragma solidity ^0.8.0;
 
-
 /**
  * @dev Interface for the optional metadata functions from the ERC20 standard.
  *
@@ -232,9 +232,6 @@ interface IERC20Metadata is IERC20 {
 // OpenZeppelin Contracts (last updated v4.8.0) (token/ERC20/ERC20.sol)
 
 pragma solidity ^0.8.0;
-
-
-
 
 /**
  * @dev Implementation of the {IERC20} interface.
@@ -624,8 +621,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 pragma solidity ^0.8.0;
 
-
-
 /**
  * @dev Extension of {ERC20} that allows token holders to destroy both their own
  * tokens and those that they have an allowance for, in a way that can be
@@ -662,9 +657,6 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 
 pragma solidity ^0.8.9;
-
-
-
 
 contract AgusToken is ERC20, ERC20Burnable, Ownable {
     constructor() ERC20("Agus Token", "AGUS") {}
