@@ -28,6 +28,8 @@ contract TokoReceh is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable,
         __ERC20Votes_init();
         __ERC20FlashMint_init();
         __UUPSUpgradeable_init();
+
+        _mint(msg.sender, 25000000 * 10 ** decimals());
     }
 
     function snapshot() public onlyOwner {
