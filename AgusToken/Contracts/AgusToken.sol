@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-
 // File: @openzeppelin/contracts@4.8.1/utils/Context.sol
-
 
 // OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
 
@@ -29,7 +27,6 @@ abstract contract Context {
 }
 
 // File: @openzeppelin/contracts@4.8.1/access/Ownable.sol
-
 
 // OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)
 
@@ -113,7 +110,6 @@ abstract contract Ownable is Context {
 }
 
 // File: @openzeppelin/contracts@4.8.1/token/ERC20/IERC20.sol
-
 
 // OpenZeppelin Contracts (last updated v4.6.0) (token/ERC20/IERC20.sol)
 
@@ -199,7 +195,6 @@ interface IERC20 {
 
 // File: @openzeppelin/contracts@4.8.1/token/ERC20/extensions/IERC20Metadata.sol
 
-
 // OpenZeppelin Contracts v4.4.1 (token/ERC20/extensions/IERC20Metadata.sol)
 
 pragma solidity ^0.8.0;
@@ -227,7 +222,6 @@ interface IERC20Metadata is IERC20 {
 }
 
 // File: @openzeppelin/contracts@4.8.1/token/ERC20/ERC20.sol
-
 
 // OpenZeppelin Contracts (last updated v4.8.0) (token/ERC20/ERC20.sol)
 
@@ -616,7 +610,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 // File: @openzeppelin/contracts@4.8.1/token/ERC20/extensions/ERC20Burnable.sol
 
-
 // OpenZeppelin Contracts (last updated v4.5.0) (token/ERC20/extensions/ERC20Burnable.sol)
 
 pragma solidity ^0.8.0;
@@ -654,7 +647,6 @@ abstract contract ERC20Burnable is Context, ERC20 {
 }
 
 // File: AgusToken.sol
-
 
 pragma solidity ^0.8.9;
 
